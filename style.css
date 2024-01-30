@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(assets/images/bg.jpg);
+  height: 70vh;
+  background-size: max(1200px, 100vw);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.main .box {
+  width: 100%;
+  height: 70vh;
+  opacity: 0.66;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+
+nav {
+  font-family: ;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  max-width: 80vw;
+  align-items: center;
+  height: 62px;
+}
+
+nav img {
+  width: 114px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+
+.hero > :first-child {
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 450;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 450;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+}
+
+.separation {
+  height: 8px;
+  background-color: #232323;
+  opacity: 0.4;
+}
+
+.eng {
+  padding: 3px 8px;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 255, 255, 0.185);
+
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 9px 30px;
+  border-radius: 7px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.btn-red-sn {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 3px 8px;
+  cursor: pointer;
+}
+
+.main input {
+  padding: 15px 124px 16px 12px;
+  border-radius: 7px;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.308);
+  border: 1px solid rgba(255, 255, 255, 0.582);
+  color: white;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.secImg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+
+.secimg {
+  position: relative;
+}
+
+.secimg video {
+  position: absolute;
+  top: 125px;
+  right: 76.2px;
+  z-index: -1;
+}
+
+section.first > div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+}
+
+section.first > div :nth-child(1) {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+section.first > div :nth-child(2) {
+  font-size: 24px;
+}
+
+.third > div :nth-child(1) {
+  color: white;
+  position: relative;
+  right: 406px;
+  top: 24px;
+  padding-left: auto;
+}
+
+.third > div :nth-child(2) {
+  color: white;
+  position: relative;
+  right: 404px;
+  top: 13px;
+  padding-bottom: 63px;
+  padding-top: 28px;
+}
+
+.fourth > div span {
+  color: white;
+  position: relative;
+  right: -81px;
+}
+
+.faq h2 {
+  text-align: center;
+  padding: 40px;
+  font-size: 48px;
+}
+
+.faq {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 34px;
+  font-size: 24px;
+}
+
+.faqbox:hover {
+  background-color: #414141;
+}
+
+.faqbox {
+  transition: all 0.3s ease-out;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 20px;
+  width: 60vw;
+  margin: -5px auto;
+  cursor: pointer;
+}
+
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 34px;
+}
+
+footer .Questions {
+  padding: 34px 0;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+
+.footer a {
+  font-size: 14px;
+  color: white;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
